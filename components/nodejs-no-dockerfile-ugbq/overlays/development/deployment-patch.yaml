@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-no-dockerfile-ugbq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-gavp-tenant/test-app-wdpp/nodejs-no-dockerfile-ugbq@sha256:99e42fd19fba36e62cb39648bf23c54d490c9b6f39c9455a16caf81f64258630
+        name: my-nodejs
+        resources: {}
+status: {}
