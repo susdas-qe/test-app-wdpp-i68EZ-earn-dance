@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-pcbu
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/susdas_quay_org/build-e2e-gavp-tenant/test-app-wdpp/devfile-sample-python-basic-pcbu@sha256:b89118476e6efc9748bc884ef80e949eda647c9bb8789e95a3dd244627f99159
         name: my-python
         ports:
         - containerPort: 8081
