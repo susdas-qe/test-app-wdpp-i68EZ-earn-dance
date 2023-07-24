@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-pcbu
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-gavp-tenant/test-app-wdpp/devfile-sample-python-basic-pcbu@sha256:b89118476e6efc9748bc884ef80e949eda647c9bb8789e95a3dd244627f99159
+        name: my-python
+        resources: {}
+status: {}
