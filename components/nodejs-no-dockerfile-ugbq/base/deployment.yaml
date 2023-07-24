@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-ugbq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/susdas_quay_org/build-e2e-gavp-tenant/test-app-wdpp/nodejs-no-dockerfile-ugbq@sha256:99e42fd19fba36e62cb39648bf23c54d490c9b6f39c9455a16caf81f64258630
         name: my-nodejs
         ports:
         - containerPort: 3001
